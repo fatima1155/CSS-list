@@ -1,0 +1,49 @@
+ul{
+    list-style:none;
+    background-color:lightcoral;
+    padding: 20px;
+}
+ul li{
+   background-color: pink;
+   margin: 10px;
+   padding: 5px;
+   list-style-type: square;
+}
+ p{
+    color: red;
+    font-size: bold;
+}
+ol{
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: chocolate;
+    margin: 10px;
+    padding: 10px;
+}
+ol li{
+    background-color: azure;
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    margin: 10px;
+    padding: 5px;
+}
+.unorderlist{
+    list-style-type: circle;
+    padding: 20px;
+    margin: 20px;
+    background-color: crimson;
+    margin: 0 auto;
+}
+.unorderlist li{
+    background-color: aquamarine;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 25px;
+
+
+}
+.unorderlist li:hover{
+    background-color:purple;
+    color: white;
+}
